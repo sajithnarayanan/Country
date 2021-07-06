@@ -26,7 +26,6 @@ const Splash = ({navigation}) => {
         source={require('../latest/src/Assets/splash.png')}
         style={{width: '90%', resizeMode: 'contain', margin: 30}}
       />
-      <Text>This is the splash screen</Text>
       <ActivityIndicator
         animating={animating}
         color="#FFFFFF"
