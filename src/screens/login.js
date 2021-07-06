@@ -15,7 +15,7 @@ const Log = ({navigation}) => {
             <TouchableOpacity style={styles.touch} onPress={()=>navigation.navigate('Home')}>
             <Text style={{paddingLeft:"25%",paddingTop:"5%"}}>SIGN IN</Text>
             </TouchableOpacity>
-            <Text style={styles.text1}>FORGOT PASSWORD?</Text>
+           <Text style={styles.text1}>FORGOT PASSWORD?</Text>
         </View>
     );
 }
@@ -49,7 +49,7 @@ fontSize:20
         width:"30%",
         top:"30%",
         left:"30%",
-        height:"5%"
+        height:"5%",
     },
     text1:{
         color:"#fff",

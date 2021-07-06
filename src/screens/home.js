@@ -24,7 +24,10 @@ const Home = () => {
       <FlatList
        data={data}
         renderItem={({item,index}) =>
-        <View key={index} style={{padding:"5%",}}><Text style={{backgroundColor:"yellow",left:1,width:"100%",color:"red",padding:"5%",}}>{item.name}</Text>
+        <View key={index} style={{padding:"5%",}}>
+          <Text  key={index+1} style={{backgroundColor:"yellow",left:1,width:"100%",color:"red",padding:"5%",}}>{item.name}</Text>
+          <Text style={{left:"5%"}}>{item.timezones}</Text>
+          <Text style={{left:"5%"}}>{item.capital}</Text>
         </View>}
       />
     </View>
